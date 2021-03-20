@@ -8,6 +8,8 @@
     </div>
     <div class="center footer">
       <a class="githubLink" href="https://github.com/Nathaniel150/CreativeProject3">| GitHub Repository |</a>
+      <p> Nathaniel Poulson</p>
+      <p> Amy Techavimol</p>
     </div>
   </div>
 </template>
@@ -54,6 +56,9 @@
 }
 .footer a{
   color: white;
+}
+.footer p{
+  margin: 0;
 }
 
 @media only screen and (min-width: 1000px) {
