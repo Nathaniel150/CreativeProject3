@@ -6,6 +6,7 @@ Vue.config.productionTip = false
 
 let data= {
   robbers: mock,
+  hiredRobbers: [],
 }
 
 new Vue({

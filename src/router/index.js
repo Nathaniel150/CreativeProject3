@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Profile from '../views/Profile.vue'
 import Hired from '../views/Hired.vue'
+import ListHired from '../views/ListHired.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/hired/:id',
     name: 'Hired',
     component: Hired,
+  },
+  {
+    path: '/listhired',
+    name: 'ListHired',
+    component: ListHired,
   },
 ]
 
